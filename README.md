@@ -11,8 +11,11 @@ CFE requires the JDOM library: jdom-1.1.3.jar
 Usage:
 
 java -jar CFE -c|-d  [file|directory]
+
 	 -c	 file: compose fragment CMMN files according to the composition script in textfile file; the first line lists a base CMMN model and the subsequent lines fragment CMMN models.
+	 
 	 -c	 directory: compose all composition scripts in the directory that have name '*comp*.txt'.
+
 	 -d	 decompose CMMN files that are listed in the textfile file or are contained in the directory into fragments, stored in subdirectory 'fragments'
 
 java -jar CFE -m [directory1, directory2]
