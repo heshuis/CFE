@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<cmmn:definitions xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:di="http://www.omg.org/spec/CMMN/20151109/DI" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="_c94b6a6ff97d4b389e53f7cabf57f991_definitions">
+  <cmmn:case name="I_W1_W3" id="_c94b6a6ff97d4b389e53f7cabf57f991">
+    <cmmn:casePlanModel name="WMO Provision Request" id="_4c8d8995d89a41e8b509672e0f9cb4bc">
+      <cmmn:planItem id="_f20c239257ac4ab6874c1d9348729647" definitionRef="_6b672763242d48a5b2ba0b50d8915e32">
+        <cmmn:entryCriterion id="_6eb3292b9b1744a7b39454c987b928e3" sentryRef="_48d2ed5d32fd474ba000d229afa7ed5d" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_193cc03581764397bc8781ce9b333cfc" definitionRef="_ad7e7f7f358a47a6844b28deafb177f2">
+        <cmmn:entryCriterion id="_eb15e8a76ad24f04bbcf58b8a0265e6e" sentryRef="_34056d49d86545cc8cad0ab2264323f4" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_3b904afddb6c4cc4bca46ed93e3a48d8" definitionRef="_2452b09b47944f1a97ec123f69ef721c">
+        <cmmn:entryCriterion id="_138715771af949a09229efd23127e607" sentryRef="_a9953f80b95942b88b525869f83c6f7a" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_22e77abda8964ffdab695cc2cfe37ebf" definitionRef="_105f0c171a184920b734265de45fc71e">
+        <cmmn:entryCriterion id="_275c78bd74b740549ce4d3962eeee688" sentryRef="_bb23d2c9d72b4e189c7f790936514626" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_4eb8c7a452044aa7ba02fea1300dd893" definitionRef="_c3692814e2dd4f1297ecaeeff1d4576a">
+        <cmmn:entryCriterion id="_6ab0155974d7412c875033bd86605bfc" sentryRef="_364bc00c517e4c5b9101e60500051f1f" />
+        <cmmn:entryCriterion id="_b336a841e69d4c7395c525ef44eb00c8" sentryRef="_849da2f944314acd80cb618cc62ad5c9" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_47692f85bc3e4b0ba4239c7f75cc0831" definitionRef="_a1b12578c45b40419cd9d3a8237e39b6">
+        <cmmn:entryCriterion id="_0a758042bc194207b003633902bd769a" sentryRef="_54100b82b4634e179008f42a87fc0133" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_12e4366d959f4b2182ec692af677a7d9" definitionRef="_6133e14c40d7431fb15fba5d12a0e787">
+        <cmmn:entryCriterion id="_3ead64a01b4544d6ab8a8d6aef81ce38" sentryRef="_b219a25229b64593b50e0bc533fb0500" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_501aa7d7d20f417892f840c75e83b8e3" definitionRef="_e8f78d86c4c34a3aa00b5e34106293d0">
+        <cmmn:entryCriterion id="_3452d7b8a1fa4933a54893ef4fc95df6" sentryRef="_bbd4445ebaa44b5cac1550610801634a" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_e0a4e5f7f72e4e82a0ecebdd4aa3d791" definitionRef="_62534994dc0f4698ab38a02561917b91">
+        <cmmn:entryCriterion id="_e756c9a2d6e24cd49c9c44407a014e8a" sentryRef="_34653c7100c24eba889b82cd1f8bf3e8" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_fbe49ee91f8044bda09d249989531f47" definitionRef="_e40ef5d7adc442b8924afc88a6d7906d">
+        <cmmn:entryCriterion id="_3d0b626dcd20428cb5836b890f86a9c2" sentryRef="_9dd9570f7c4847749cbce5d9a41cb733" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_a0068df5ed764867839df14a1c263100" definitionRef="_6eeb61891d864e09818b8cf2e6ca8a8e" />
+      <cmmn:planItem id="_dc6549a9bcf6447394ff19a0f15ab80c" definitionRef="_d3159dd7ca444db7be2cafb9e47e1486">
+        <cmmn:entryCriterion id="_bada7e2b280d44b78dc02830ae5573ca" sentryRef="_f3b70d3ac59348008e6539525c866952" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_01913159bb3e4149bf3f7b7d304da25e" definitionRef="_3bf3e1d0376d45d19e962c9ffb43f06b">
+        <cmmn:entryCriterion id="_b0fee7fb69294956b57854ec6152ebf0" sentryRef="_c5e1c817f84945688a6cb72aa9be757d" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_eecf275149094f608982b5ccf1c3fd79" definitionRef="_e117e2c06e544e1aaccf4d2b260c346f">
+        <cmmn:entryCriterion id="_70595e7b2fad41f6a9aed2fecc42242f" sentryRef="_b130111cf71f47889224281ebf2ffe75" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_93240d6195eb40af9b1fc5a143e6527a" definitionRef="_acc1bf1862cc48c7a857d97241190962">
+        <cmmn:entryCriterion id="_b101933fe77448c6a3f0e747fab7b41a" sentryRef="_39f8312fc0f544ebb07d05ac1c8840ef" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_547dd8b67dd244edb900ddde1c70aa42" definitionRef="_01e86ace17bb43c59f69936a0640c448">
+        <cmmn:entryCriterion id="_fd0d23b0f606483f9bc7c53e5be058f9" sentryRef="_c7d77684dba845ebbb56bb456c25031b" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_9d01026425fc43e0be4069639ee4c46b" definitionRef="_b8f30cca06aa434e9312ba110cc5d236">
+        <cmmn:entryCriterion id="_2be3084ec4334c0db12fb469d59651b5" sentryRef="_49f7fe8a94a34516b430e7109af91c17" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_7aa43f97b2fc41b98a174950bee113dc" definitionRef="_74497b32bde949b58c408c3bf0da80dc">
+        <cmmn:entryCriterion id="_356868c2f3fb4116b4878b2c98e4e95b" sentryRef="_2d98025ab7744254995b4590bd04ac68" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_2fb8474bf42c46da8f1a4396f70663ba" definitionRef="_1c327ad0cc8944378b9bfce130a2c123">
+        <cmmn:entryCriterion id="_490022fafccc48a0b10d631aa4de1831" sentryRef="_5a793bdee3b04ef88a425f76590d87dd" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_35b9221c35484c439721516bcf16ba9f" definitionRef="_e9b022db147b4f99814d19f5b7ec51cf">
+        <cmmn:entryCriterion id="_ac25bfaf2f4641dd8d48062ec9d36306" sentryRef="_46b11e9eb663425388152ac9c499eb71" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_cde4ee5797fb4d168394a85932c8004c" definitionRef="_0a44b34c2a884b0f9cfc792a6a048ca6">
+        <cmmn:entryCriterion id="_ea7c5622017e434f96d1a8c3c69a1529" sentryRef="_54277d39b8114898a45af17b696b5730" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_7d4c24d5854c493db07219810ba21267" definitionRef="_44bf5d6956f64de6b92f9e113b12fb6c">
+        <cmmn:entryCriterion id="_072362d55a534854b357fb2a92fdafdf" sentryRef="_083cbc9d1b694c01a9d32eb73a074c77" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_8f5ef4fe7af348a29e8117f58b170100" definitionRef="_fd89f1f3e0824723ab1061395c86bb4f">
+        <cmmn:entryCriterion id="_4194885ca9464577add89d866b399604" sentryRef="_022948d43fd6468cb163543d15bf06e9" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_1029ed83285a4bd7be92a7023e25467c" definitionRef="_e1f8210697184789b062c45f1b315e3b" />
+      <cmmn:planItem id="_662a0b3cfbd148e5b13fdc404b695c0e" definitionRef="_ea1b90d1d0de45a4bba4ec803307193b">
+        <cmmn:entryCriterion id="_edb8cd004c034f2a8cb0468f053ce229" sentryRef="_41cb306fc79c4c14b04bc4867e3c3853" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_358b355cb7f94f539107ae5656c4ab7d" definitionRef="_0258799ca82b4e5fa05ad88d6b332b88">
+        <cmmn:entryCriterion id="_4c01528881254dd3a18bfc0df4e15d98" sentryRef="_a1ddebce39704847bf8d226e7ef0d88e" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_1a4db0806a084096be45cade802232d5" definitionRef="_52dc0ff9d15f4130a62ab39a87264171">
+        <cmmn:entryCriterion id="_9edb54f347234915a98192bdaba1bed3" sentryRef="_ba7f288254b04a17b87dbdf3815b8aa0" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_5755554dfbc74ec2bb96ec789d333a76" definitionRef="_68a7324ab7554648bd25ad8eaa8f665e">
+        <cmmn:entryCriterion id="_5756bb167f5641ef95fa9710dceaf1ba" sentryRef="_cbabdaf9cecf4890be56b084222227d5" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_b227ac355ccf44c189a0642579a82118" definitionRef="_348433fc7c7842b68e39452cf61f358d">
+        <cmmn:entryCriterion id="_10c4a00375b64f4f8aa92afb7517bb3e" sentryRef="_be6ab061bda64e36a7a56e8dccade4d5" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_8cc90263d0174392bb9d7871eda389ec" definitionRef="_dcacb897843342c6b36d895734777708">
+        <cmmn:entryCriterion id="_4222928d90ba42da82246856b003d5be" sentryRef="_bf43232e1e3b460986c9843081c20e0f" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_fdacd73d5c8540d3a084c38aca18c057" definitionRef="_6489c16ea55044dfaecd2a11771a7624" />
+      <cmmn:planItem id="_742cc39f5d20440ba0dbb0e3260c6da8" definitionRef="_7352faf7cd36483c8c40ccfca3d88987">
+        <cmmn:entryCriterion id="_0a40218fc8c747e38adfce8583668df1" sentryRef="_94cc38752bd64914afb4b0c9538d3744" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_640991479ee44f5bb0051eb8b4ab0410" definitionRef="_04f1ac4c95584abda0e003d41e83bbb7">
+        <cmmn:entryCriterion id="_813fe0534ca3450e80235c2662d02407" sentryRef="_8fb67ec4aba84ddc86ef23763fb7b462" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_4e5ca9e8676e4145843e1176c1e1b3ef" definitionRef="_d42334684e404da384ac6bd221bb150c">
+        <cmmn:entryCriterion id="_ec133ba1be604cc3924a60a12bb3f80e" sentryRef="_4a4c169fc07d4a55bf1dd7e4e5f87e55" />
+      </cmmn:planItem>
+      <cmmn:milestone name="Not covered by WMO" id="_e40ef5d7adc442b8924afc88a6d7906d" />
+      <cmmn:eventListener name="Client chooses provision" id="_e1f8210697184789b062c45f1b315e3b" />
+      <cmmn:milestone name="Rejected" id="_52dc0ff9d15f4130a62ab39a87264171" />
+      <cmmn:task name="Intake and handle application" id="_b8f30cca06aa434e9312ba110cc5d236" />
+      <cmmn:task name="Assign personal budget" id="_1c327ad0cc8944378b9bfce130a2c123" />
+      <cmmn:milestone name="Personal budget assigned" id="_0a44b34c2a884b0f9cfc792a6a048ca6" />
+      <cmmn:task name="Provide information and advice" id="_fd89f1f3e0824723ab1061395c86bb4f" />
+      <cmmn:milestone name="Decision affirmed" id="_ea1b90d1d0de45a4bba4ec803307193b" />
+      <cmmn:milestone name="No appeal" id="_0258799ca82b4e5fa05ad88d6b332b88" />
+      <cmmn:task name="Check on correct use of personal budget" id="_acc1bf1862cc48c7a857d97241190962" />
+      <cmmn:task name="Handle appeal" id="_3bf3e1d0376d45d19e962c9ffb43f06b" />
+      <cmmn:milestone name="Ordered with supplier" id="_d42334684e404da384ac6bd221bb150c" />
+      <cmmn:milestone name="Use personal budget checked" id="_e8f78d86c4c34a3aa00b5e34106293d0" />
+      <cmmn:task name="Receive delivery confirmation" id="_01e86ace17bb43c59f69936a0640c448" />
+      <cmmn:milestone name="Invoiced" id="_74497b32bde949b58c408c3bf0da80dc" />
+      <cmmn:task name="Forward to supplier" id="_04f1ac4c95584abda0e003d41e83bbb7" />
+      <cmmn:milestone name="Covered by WMO" id="_ad7e7f7f358a47a6844b28deafb177f2" />
+      <cmmn:task name="Check citizen response" id="_6133e14c40d7431fb15fba5d12a0e787" />
+      <cmmn:task name="Home visit" id="_2452b09b47944f1a97ec123f69ef721c" />
+      <cmmn:milestone name="Appeal" id="_7352faf7cd36483c8c40ccfca3d88987" />
+      <cmmn:task name="Handle invoice" id="_348433fc7c7842b68e39452cf61f358d" />
+      <cmmn:task name="Affirm decision" id="_a1b12578c45b40419cd9d3a8237e39b6" />
+      <cmmn:task name="Assign provision" id="_d3159dd7ca444db7be2cafb9e47e1486" />
+      <cmmn:eventListener name="Client chooses personal budget" id="_6489c16ea55044dfaecd2a11771a7624" />
+      <cmmn:task name="Decide" id="_44bf5d6956f64de6b92f9e113b12fb6c" />
+      <cmmn:milestone name="Provision assigned" id="_68a7324ab7554648bd25ad8eaa8f665e" />
+      <cmmn:milestone name="Approved" id="_dcacb897843342c6b36d895734777708" />
+      <cmmn:milestone name="Delivered" id="_e9b022db147b4f99814d19f5b7ec51cf" />
+      <cmmn:milestone name="Requested info provided" id="_e117e2c06e544e1aaccf4d2b260c346f" />
+      <cmmn:milestone name="Visited (if needed)" id="_c3692814e2dd4f1297ecaeeff1d4576a" />
+      <cmmn:task name="Medical advice" id="_62534994dc0f4698ab38a02561917b91" />
+      <cmmn:milestone name="Client advised" id="_6b672763242d48a5b2ba0b50d8915e32" />
+      <cmmn:task name="Revise decision" id="_105f0c171a184920b734265de45fc71e" />
+      <cmmn:eventListener name="Client requests support" id="_6eeb61891d864e09818b8cf2e6ca8a8e" />
+      <cmmn:sentry id="_a1ddebce39704847bf8d226e7ef0d88e">
+        <cmmn:planItemOnPart id="_47d51b8f34934d1d91d92c1e8b4a8ca4" sourceRef="_12e4366d959f4b2182ec692af677a7d9">
+          <!--refers to plan item name: Check citizen response-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not appeal made</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_9dd9570f7c4847749cbce5d9a41cb733">
+        <cmmn:planItemOnPart id="_4b803023918d45d4b95e761c6b10c6f8" sourceRef="_9d01026425fc43e0be4069639ee4c46b">
+          <!--refers to plan item name: Intake and handle application-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not WMOeligible</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_8fb67ec4aba84ddc86ef23763fb7b462">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_022948d43fd6468cb163543d15bf06e9">
+        <cmmn:planItemOnPart id="_d44078bd387b4c72ad8a8669539daf8b" sourceRef="_fbe49ee91f8044bda09d249989531f47">
+          <!--refers to plan item name: Not covered by WMO-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_4a4c169fc07d4a55bf1dd7e4e5f87e55">
+        <cmmn:planItemOnPart id="_dd0e763c5c214012bd6ead59435a2ea9" sourceRef="_640991479ee44f5bb0051eb8b4ab0410">
+          <!--refers to plan item name: Forward to supplier-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_be6ab061bda64e36a7a56e8dccade4d5">
+        <cmmn:planItemOnPart id="_2e2484f986f142bead14298c0b1098d8" sourceRef="_35b9221c35484c439721516bcf16ba9f">
+          <!--refers to plan item name: Delivered-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_bbd4445ebaa44b5cac1550610801634a">
+        <cmmn:planItemOnPart id="_5cdf69e96aa2451b82b580628acb6c6d" sourceRef="_93240d6195eb40af9b1fc5a143e6527a">
+          <!--refers to plan item name: Check on correct use of personal budget-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_34056d49d86545cc8cad0ab2264323f4">
+        <cmmn:planItemOnPart id="_5e0f43dbccc74d15a8176009c0b29922" sourceRef="_9d01026425fc43e0be4069639ee4c46b">
+          <!--refers to plan item name: Intake and handle application-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>WMOeligible</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_54100b82b4634e179008f42a87fc0133">
+        <cmmn:planItemOnPart id="_4b607088c4b546f2977e5374c22c81c8" sourceRef="_01913159bb3e4149bf3f7b7d304da25e">
+          <!--refers to plan item name: Handle appeal-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>affirmed</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_94cc38752bd64914afb4b0c9538d3744">
+        <cmmn:planItemOnPart id="_790d08d62d5c4a90833ccc81d1790653" sourceRef="_12e4366d959f4b2182ec692af677a7d9">
+          <!--refers to plan item name: Check citizen response-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>appeal made</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_849da2f944314acd80cb618cc62ad5c9">
+        <cmmn:planItemOnPart id="_176e71f8ad8447488aaa53b5c2b31799" sourceRef="_3b904afddb6c4cc4bca46ed93e3a48d8">
+          <!--refers to plan item name: Home visit-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_49f7fe8a94a34516b430e7109af91c17">
+        <cmmn:planItemOnPart id="_075fd209807a4552b645446abb769a1d" sourceRef="_a0068df5ed764867839df14a1c263100">
+          <!--refers to plan item name: Client requests support-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_083cbc9d1b694c01a9d32eb73a074c77">
+        <cmmn:planItemOnPart id="_b0dce843ce2644da97a7d6fb7404a3b2" sourceRef="_eecf275149094f608982b5ccf1c3fd79">
+          <!--refers to plan item name: Requested info provided-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_54277d39b8114898a45af17b696b5730">
+        <cmmn:planItemOnPart id="_f99ae097f1b84ea4b23f69e1b9f0f19b" sourceRef="_2fb8474bf42c46da8f1a4396f70663ba">
+          <!--refers to plan item name: Assign personal budget-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_39f8312fc0f544ebb07d05ac1c8840ef">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_364bc00c517e4c5b9101e60500051f1f">
+        <cmmn:ifPart>
+          <cmmn:condition>not home visit needed</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_46b11e9eb663425388152ac9c499eb71">
+        <cmmn:planItemOnPart id="_c4f0b7aa598143b681ef1c12a1c8a0a2" sourceRef="_547dd8b67dd244edb900ddde1c70aa42">
+          <!--refers to plan item name: Receive delivery confirmation-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_48d2ed5d32fd474ba000d229afa7ed5d">
+        <cmmn:planItemOnPart id="_f98379edc91a47c19a802f3828544c3a" sourceRef="_8f5ef4fe7af348a29e8117f58b170100">
+          <!--refers to plan item name: Provide information and advice-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_a9953f80b95942b88b525869f83c6f7a">
+        <cmmn:ifPart>
+          <cmmn:condition>home visit needed</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_bf43232e1e3b460986c9843081c20e0f">
+        <cmmn:ifPart>
+          <cmmn:condition>approved</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_ba7f288254b04a17b87dbdf3815b8aa0">
+        <cmmn:ifPart>
+          <cmmn:condition>not approved</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_bb23d2c9d72b4e189c7f790936514626">
+        <cmmn:planItemOnPart id="_8f17658bc79c45559cf80a9054f02c07" sourceRef="_01913159bb3e4149bf3f7b7d304da25e">
+          <!--refers to plan item name: Handle appeal-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not affirmed</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_c5e1c817f84945688a6cb72aa9be757d">
+        <cmmn:planItemOnPart id="_9f4437fa872e45ac887ce4c3e354cb3a" sourceRef="_742cc39f5d20440ba0dbb0e3260c6da8">
+          <!--refers to plan item name: Appeal-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_cbabdaf9cecf4890be56b084222227d5">
+        <cmmn:planItemOnPart id="_2e1565b4cc42450286a63c8ba206a9ca" sourceRef="_dc6549a9bcf6447394ff19a0f15ab80c">
+          <!--refers to plan item name: Assign provision-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_c7d77684dba845ebbb56bb456c25031b">
+        <cmmn:planItemOnPart id="_7a38d3e3c2534df5a0a204507ac40612" sourceRef="_4e5ca9e8676e4145843e1176c1e1b3ef">
+          <!--refers to plan item name: Ordered with supplier-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_41cb306fc79c4c14b04bc4867e3c3853">
+        <cmmn:planItemOnPart id="_f5e0670e826e4361bbbf79acdaf2168c" sourceRef="_47692f85bc3e4b0ba4239c7f75cc0831">
+          <!--refers to plan item name: Affirm decision-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_5a793bdee3b04ef88a425f76590d87dd">
+        <cmmn:planItemOnPart id="_084f9b26668f45708926932eefa1d3f9" sourceRef="_fdacd73d5c8540d3a084c38aca18c057">
+          <!--refers to plan item name: Client chooses personal budget-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_f3b70d3ac59348008e6539525c866952">
+        <cmmn:planItemOnPart id="_884f14137268429aa5cd174085a4a8ca" sourceRef="_8cc90263d0174392bb9d7871eda389ec">
+          <!--refers to plan item name: Approved-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_b130111cf71f47889224281ebf2ffe75">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_b219a25229b64593b50e0bc533fb0500">
+        <cmmn:planItemOnPart id="_d979f74baa474d3db541f654297f5dce" sourceRef="_1a4db0806a084096be45cade802232d5">
+          <!--refers to plan item name: Rejected-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_2d98025ab7744254995b4590bd04ac68">
+        <cmmn:planItemOnPart id="_90cde6b850ed49ad85c46b5d4741fa77" sourceRef="_b227ac355ccf44c189a0642579a82118">
+          <!--refers to plan item name: Handle invoice-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_34653c7100c24eba889b82cd1f8bf3e8">
+        <cmmn:ifPart>
+          <cmmn:condition>advice needed</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>
+

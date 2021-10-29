@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmmn:definitions xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/CMMN/20151109/DI" id="Definitions_0nrr8ou" targetNamespace="http://bpmn.io/schema/cmmn" exporter="Camunda Modeler" exporterVersion="3.7.3">
+  <cmmn:case id="Case_1q7a89m">
+    <cmmn:casePlanModel id="CasePlanModel_0hleeu9" name="BCA">
+      <cmmn:planItem id="PlanItem_1" definitionRef="Task_1">
+        <cmmn:entryCriterion id="EntryCriterion_1vg8dlg" sentryRef="Sentry_0pxgdbe" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_0gr1xyu" definitionRef="Milestone_1mw8r03">
+        <cmmn:entryCriterion id="EntryCriterion_1m7fhz9" sentryRef="Sentry_1j36l70" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_1m0uagc" definitionRef="Stage_144ptva">
+        <cmmn:entryCriterion id="EntryCriterion_18tqz8x" sentryRef="Sentry_0g2cwco" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_1khid2e" definitionRef="Milestone_0im5ziz">
+        <cmmn:entryCriterion id="EntryCriterion_10sfe29" sentryRef="Sentry_1eqty03" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_10i192u" definitionRef="Milestone_1h4f28m">
+        <cmmn:entryCriterion id="EntryCriterion_182rsfe" sentryRef="Sentry_018i9t4" />
+        <cmmn:entryCriterion id="EntryCriterion_1eqfj9m" sentryRef="Sentry_0zciw3l" />
+        <cmmn:entryCriterion id="EntryCriterion_02vmzji" sentryRef="Sentry_0zwokz4" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_14m7274" definitionRef="Task_0p1xxek">
+        <cmmn:entryCriterion id="EntryCriterion_1gq8iae" sentryRef="Sentry_0l8mv10" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_0kfa4yx" definitionRef="Milestone_1l3f8li">
+        <cmmn:entryCriterion id="EntryCriterion_1se9f8l" sentryRef="Sentry_07qypwc" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_13hierv" definitionRef="Milestone_19k3yks">
+        <cmmn:entryCriterion id="EntryCriterion_1t2e5t4" sentryRef="Sentry_0qp7r64" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_0z6cq30" definitionRef="EventListener_067sqy2" />
+      <cmmn:planItem id="PlanItem_0zs1t2s" definitionRef="Task_0sxfwa6">
+        <cmmn:entryCriterion id="EntryCriterion_1pa5lna" sentryRef="Sentry_1o69cmd" />
+      </cmmn:planItem>
+      <cmmn:planItem id="PlanItem_0wtr94j" definitionRef="Milestone_0z2h9u1">
+        <cmmn:entryCriterion id="EntryCriterion_1ecn108" sentryRef="Sentry_0ydpary" />
+      </cmmn:planItem>
+      <cmmn:sentry id="Sentry_1j36l70">
+        <cmmn:planItemOnPart id="PlanItemOnPart_145xred" sourceRef="PlanItem_1">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0g2cwco">
+        <cmmn:planItemOnPart id="PlanItemOnPart_1d830lc" sourceRef="PlanItem_0gr1xyu">
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0pxgdbe">
+        <cmmn:planItemOnPart id="PlanItemOnPart_0tvt3b0" sourceRef="PlanItem_0z6cq30">
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0l8mv10">
+        <cmmn:planItemOnPart id="PlanItemOnPart_09z2aw6" sourceRef="PlanItem_1khid2e">
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_07qypwc">
+        <cmmn:planItemOnPart id="PlanItemOnPart_0o4rzq8" sourceRef="PlanItem_14m7274">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_0xdwpw7">
+          <cmmn:condition id="Expression_0myate2">DCok</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0qp7r64">
+        <cmmn:planItemOnPart id="PlanItemOnPart_15qj57j" sourceRef="PlanItem_14m7274">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_0hpggzd">
+          <cmmn:condition id="Expression_1vu7scv">not DCok</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_1eqty03">
+        <cmmn:planItemOnPart id="PlanItemOnPart_1n4ktem" sourceRef="PlanItem_1m0uagc">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_0s2y0ht">
+          <cmmn:condition id="Expression_1sl9wdw">BPECS and CCS and AMCS</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_018i9t4">
+        <cmmn:planItemOnPart id="PlanItemOnPart_09s0j5y" sourceRef="PlanItem_1m0uagc">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_0xjq59o">
+          <cmmn:condition id="Expression_1xxc0x1">BPECU</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0zciw3l">
+        <cmmn:planItemOnPart id="PlanItemOnPart_1a11i6y" sourceRef="PlanItem_1m0uagc">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_0kd02f3">
+          <cmmn:condition id="Expression_0tcf9dm">CCU</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0zwokz4">
+        <cmmn:planItemOnPart id="PlanItemOnPart_1qn3zwq" name="" sourceRef="PlanItem_1m0uagc">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart id="IfPart_1plvzo3">
+          <cmmn:condition id="Expression_12uiknc">AMCU</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_1o69cmd">
+        <cmmn:planItemOnPart id="PlanItemOnPart_0lh6hf1" sourceRef="PlanItem_0kfa4yx">
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="Sentry_0ydpary">
+        <cmmn:planItemOnPart id="PlanItemOnPart_0z2qmni" sourceRef="PlanItem_0zs1t2s">
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+      </cmmn:sentry>
+      <cmmn:task id="Task_1" name="Initial Data Gathering" />
+      <cmmn:milestone id="Milestone_1mw8r03" name="IDGS" />
+      <cmmn:stage id="Stage_144ptva" name="Preliminary Check">
+        <cmmn:planItem id="PlanItem_10vablj" definitionRef="Task_0uzef33">
+          <cmmn:entryCriterion id="EntryCriterion_0i0le0f" sentryRef="Sentry_13lcafq" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_1h5bxqg" definitionRef="Milestone_1r1aqil">
+          <cmmn:entryCriterion id="EntryCriterion_1hx6fqi" sentryRef="Sentry_1vloxe1" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_1t6e4j5" definitionRef="Milestone_0lyqlso">
+          <cmmn:entryCriterion id="EntryCriterion_1iv05tb" sentryRef="Sentry_0faid74" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_0ws2lys" definitionRef="Task_0ilvsud">
+          <cmmn:entryCriterion id="EntryCriterion_1dqrddf" sentryRef="Sentry_1jxdskg" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_07dkajn" definitionRef="Milestone_0n2e14o">
+          <cmmn:entryCriterion id="EntryCriterion_11md42n" sentryRef="Sentry_16awmhg" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_14lhexm" definitionRef="Milestone_022014r">
+          <cmmn:entryCriterion id="EntryCriterion_0v5b0x9" sentryRef="Sentry_1ojfnj2" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_0yzc3r2" definitionRef="Task_0f6sg61">
+          <cmmn:entryCriterion id="EntryCriterion_1vsmav6" sentryRef="Sentry_107hrgk" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_1wx49m6" definitionRef="Milestone_0rvc699">
+          <cmmn:entryCriterion id="EntryCriterion_0d6ffxx" sentryRef="Sentry_0iesfu2" />
+        </cmmn:planItem>
+        <cmmn:planItem id="PlanItem_1qbnok9" definitionRef="Milestone_09uaqn8">
+          <cmmn:entryCriterion id="EntryCriterion_08ivtl7" sentryRef="Sentry_080rwr7" />
+        </cmmn:planItem>
+        <cmmn:sentry id="Sentry_13lcafq" />
+        <cmmn:sentry id="Sentry_1vloxe1">
+          <cmmn:planItemOnPart id="PlanItemOnPart_1csh2dy" sourceRef="PlanItem_10vablj">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_0n2dhlt">
+            <cmmn:condition id="Expression_020bdxx">BPgood</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_0faid74">
+          <cmmn:planItemOnPart id="PlanItemOnPart_01hcdmx" sourceRef="PlanItem_10vablj">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_1qb2leo">
+            <cmmn:condition id="Expression_0ik7lhz">not BPgood</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_1jxdskg" />
+        <cmmn:sentry id="Sentry_16awmhg">
+          <cmmn:planItemOnPart id="PlanItemOnPart_1u7eg2k" sourceRef="PlanItem_0ws2lys">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_0r3cz71">
+            <cmmn:condition id="Expression_120hvq8">checkOk</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_1ojfnj2">
+          <cmmn:planItemOnPart id="PlanItemOnPart_1vqie14" sourceRef="PlanItem_0ws2lys">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_1ha6gfp">
+            <cmmn:condition id="Expression_1aq3o1s">not checkOk</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_0iesfu2">
+          <cmmn:planItemOnPart id="PlanItemOnPart_0lw0oxn" sourceRef="PlanItem_0yzc3r2">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_1c3kw11">
+            <cmmn:condition id="Expression_0qux4k9">AMC_good</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_080rwr7">
+          <cmmn:planItemOnPart id="PlanItemOnPart_0fn7hw1" sourceRef="PlanItem_0yzc3r2">
+            <cmmn:standardEvent>complete</cmmn:standardEvent>
+          </cmmn:planItemOnPart>
+          <cmmn:ifPart id="IfPart_0baumum">
+            <cmmn:condition id="Expression_0podpo0">not AMC_good</cmmn:condition>
+          </cmmn:ifPart>
+        </cmmn:sentry>
+        <cmmn:sentry id="Sentry_107hrgk" />
+        <cmmn:task id="Task_0uzef33" name="Business Performance Evaluation Check" />
+        <cmmn:milestone id="Milestone_1r1aqil" name="BPECS" />
+        <cmmn:milestone id="Milestone_0lyqlso" name="BPECU" />
+        <cmmn:task id="Task_0ilvsud" name="Credit Check" />
+        <cmmn:milestone id="Milestone_0n2e14o" name="CCS" />
+        <cmmn:milestone id="Milestone_022014r" name="CCU" />
+        <cmmn:task id="Task_0f6sg61" name="Addressable Market Check" />
+        <cmmn:milestone id="Milestone_0rvc699" name="AMCS" />
+        <cmmn:milestone id="Milestone_09uaqn8" name="AMCU" />
+      </cmmn:stage>
+      <cmmn:milestone id="Milestone_0im5ziz" name="PCS" />
+      <cmmn:milestone id="Milestone_1h4f28m" name="PCU" />
+      <cmmn:task id="Task_0p1xxek" name="Detailed Check" />
+      <cmmn:milestone id="Milestone_1l3f8li" name="DCS" />
+      <cmmn:milestone id="Milestone_19k3yks" name="DCU" />
+      <cmmn:eventListener id="EventListener_067sqy2" name="StartAssessment" />
+      <cmmn:task id="Task_0sxfwa6" name="Write Report" />
+      <cmmn:milestone id="Milestone_0z2h9u1" name="RW" />
+    </cmmn:casePlanModel>
+  </cmmn:case>
+  <cmmndi:CMMNDI>
+    <cmmndi:CMMNDiagram id="CMMNDiagram_0nts6mw">
+      <cmmndi:Size width="500" height="500" />
+      <cmmndi:CMMNShape id="DI_CasePlanModel_0hleeu9" cmmnElementRef="CasePlanModel_0hleeu9">
+        <dc:Bounds x="169" y="99" width="1669" height="634" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1_di" cmmnElementRef="PlanItem_1">
+        <dc:Bounds x="317" y="132" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_0gr1xyu_di" cmmnElementRef="PlanItem_0gr1xyu">
+        <dc:Bounds x="483" y="152" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1m7fhz9_di" cmmnElementRef="EntryCriterion_1m7fhz9">
+        <dc:Bounds x="473" y="160" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_145xred_di" cmmnElementRef="PlanItemOnPart_145xred" targetCMMNElementRef="EntryCriterion_1m7fhz9" isStandardEventVisible="true">
+        <di:waypoint x="417" y="172" />
+        <di:waypoint x="445" y="172" />
+        <di:waypoint x="445" y="174" />
+        <di:waypoint x="473" y="174" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="406" y="163" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_1m0uagc_di" cmmnElementRef="PlanItem_1m0uagc">
+        <dc:Bounds x="615" y="132" width="361" height="544" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_10vablj_di" cmmnElementRef="PlanItem_10vablj">
+        <dc:Bounds x="654" y="169" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_18tqz8x_di" cmmnElementRef="EntryCriterion_18tqz8x">
+        <dc:Bounds x="605" y="325" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1d830lc_di" cmmnElementRef="PlanItemOnPart_1d830lc" targetCMMNElementRef="EntryCriterion_18tqz8x" isStandardEventVisible="true">
+        <di:waypoint x="583" y="172" />
+        <di:waypoint x="594" y="172" />
+        <di:waypoint x="594" y="339" />
+        <di:waypoint x="605" y="339" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="577" y="181" width="33" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_1h5bxqg_di" cmmnElementRef="PlanItem_1h5bxqg">
+        <dc:Bounds x="806" y="152" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1t6e4j5_di" cmmnElementRef="PlanItem_1t6e4j5">
+        <dc:Bounds x="806" y="231" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1khid2e_di" cmmnElementRef="PlanItem_1khid2e">
+        <dc:Bounds x="993" y="189" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_10i192u_di" cmmnElementRef="PlanItem_10i192u">
+        <dc:Bounds x="1058" y="288" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_14m7274_di" cmmnElementRef="PlanItem_14m7274">
+        <dc:Bounds x="1133" y="169" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_0kfa4yx_di" cmmnElementRef="PlanItem_0kfa4yx">
+        <dc:Bounds x="1308" y="141" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_13hierv_di" cmmnElementRef="PlanItem_13hierv">
+        <dc:Bounds x="1308" y="263" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_0z6cq30_di" cmmnElementRef="PlanItem_0z6cq30">
+        <dc:Bounds x="203" y="143" width="36" height="36" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="179" y="179" width="84" height="12" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1vg8dlg_di" cmmnElementRef="EntryCriterion_1vg8dlg">
+        <dc:Bounds x="307" y="155" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0tvt3b0_di" cmmnElementRef="PlanItemOnPart_0tvt3b0" targetCMMNElementRef="EntryCriterion_1vg8dlg" isStandardEventVisible="true">
+        <di:waypoint x="239" y="161" />
+        <di:waypoint x="273" y="161" />
+        <di:waypoint x="273" y="169" />
+        <di:waypoint x="307" y="169" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="256" y="151" width="33" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_0i0le0f_di" cmmnElementRef="EntryCriterion_0i0le0f">
+        <dc:Bounds x="644" y="198" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1gq8iae_di" cmmnElementRef="EntryCriterion_1gq8iae">
+        <dc:Bounds x="1123" y="187" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_09z2aw6_di" cmmnElementRef="PlanItemOnPart_09z2aw6" targetCMMNElementRef="EntryCriterion_1gq8iae" isStandardEventVisible="true">
+        <di:waypoint x="1093" y="209" />
+        <di:waypoint x="1108" y="209" />
+        <di:waypoint x="1108" y="201" />
+        <di:waypoint x="1123" y="201" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1091" y="195" width="33" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_1se9f8l_di" cmmnElementRef="EntryCriterion_1se9f8l">
+        <dc:Bounds x="1298" y="147" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1t2e5t4_di" cmmnElementRef="EntryCriterion_1t2e5t4">
+        <dc:Bounds x="1298" y="270" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0o4rzq8_di" cmmnElementRef="PlanItemOnPart_0o4rzq8" targetCMMNElementRef="EntryCriterion_1se9f8l" isStandardEventVisible="true">
+        <di:waypoint x="1233" y="209" />
+        <di:waypoint x="1266" y="209" />
+        <di:waypoint x="1266" y="161" />
+        <di:waypoint x="1298" y="161" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1240" y="175" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_15qj57j_di" cmmnElementRef="PlanItemOnPart_15qj57j" targetCMMNElementRef="EntryCriterion_1t2e5t4" isStandardEventVisible="true">
+        <di:waypoint x="1233" y="209" />
+        <di:waypoint x="1266" y="209" />
+        <di:waypoint x="1266" y="284" />
+        <di:waypoint x="1298" y="284" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1240" y="237" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_1hx6fqi_di" cmmnElementRef="EntryCriterion_1hx6fqi">
+        <dc:Bounds x="796" y="159" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1csh2dy_di" cmmnElementRef="PlanItemOnPart_1csh2dy" targetCMMNElementRef="EntryCriterion_1hx6fqi" isStandardEventVisible="true">
+        <di:waypoint x="754" y="209" />
+        <di:waypoint x="775" y="209" />
+        <di:waypoint x="775" y="173" />
+        <di:waypoint x="796" y="173" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="181" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_1iv05tb_di" cmmnElementRef="EntryCriterion_1iv05tb">
+        <dc:Bounds x="796" y="238" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_01hcdmx_di" cmmnElementRef="PlanItemOnPart_01hcdmx" targetCMMNElementRef="EntryCriterion_1iv05tb" isStandardEventVisible="true">
+        <di:waypoint x="754" y="209" />
+        <di:waypoint x="775" y="209" />
+        <di:waypoint x="775" y="252" />
+        <di:waypoint x="796" y="252" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="221" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_10sfe29_di" cmmnElementRef="EntryCriterion_10sfe29">
+        <dc:Bounds x="983" y="193" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1n4ktem_di" cmmnElementRef="PlanItemOnPart_1n4ktem" targetCMMNElementRef="EntryCriterion_10sfe29" isStandardEventVisible="true">
+        <di:waypoint x="946" y="131" />
+        <di:waypoint x="946" y="112" />
+        <di:waypoint x="993" y="112" />
+        <di:waypoint x="993" y="193" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="999" y="154" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_182rsfe_di" cmmnElementRef="EntryCriterion_182rsfe">
+        <dc:Bounds x="1048" y="291" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_09s0j5y_di" cmmnElementRef="PlanItemOnPart_09s0j5y" targetCMMNElementRef="EntryCriterion_182rsfe" isStandardEventVisible="true">
+        <di:waypoint x="976" y="404" />
+        <di:waypoint x="1012" y="404" />
+        <di:waypoint x="1012" y="305" />
+        <di:waypoint x="1048" y="305" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="999" y="288" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_0ws2lys_di" cmmnElementRef="PlanItem_0ws2lys">
+        <dc:Bounds x="654" y="354" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1dqrddf_di" cmmnElementRef="EntryCriterion_1dqrddf">
+        <dc:Bounds x="644" y="378" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_07dkajn_di" cmmnElementRef="PlanItem_07dkajn">
+        <dc:Bounds x="806" y="322" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_14lhexm_di" cmmnElementRef="PlanItem_14lhexm">
+        <dc:Bounds x="806" y="418" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_11md42n_di" cmmnElementRef="EntryCriterion_11md42n">
+        <dc:Bounds x="796" y="329" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_0v5b0x9_di" cmmnElementRef="EntryCriterion_0v5b0x9">
+        <dc:Bounds x="796" y="422" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1u7eg2k_di" cmmnElementRef="PlanItemOnPart_1u7eg2k" targetCMMNElementRef="EntryCriterion_11md42n" isStandardEventVisible="true">
+        <di:waypoint x="754" y="394" />
+        <di:waypoint x="775" y="394" />
+        <di:waypoint x="775" y="343" />
+        <di:waypoint x="796" y="343" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="359" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1vqie14_di" cmmnElementRef="PlanItemOnPart_1vqie14" targetCMMNElementRef="EntryCriterion_0v5b0x9" isStandardEventVisible="true">
+        <di:waypoint x="754" y="394" />
+        <di:waypoint x="775" y="394" />
+        <di:waypoint x="775" y="436" />
+        <di:waypoint x="796" y="436" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="405" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_1eqfj9m_di" cmmnElementRef="EntryCriterion_1eqfj9m">
+        <dc:Bounds x="1079" y="314" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1a11i6y_di" cmmnElementRef="PlanItemOnPart_1a11i6y" targetCMMNElementRef="EntryCriterion_1eqfj9m" isStandardEventVisible="true">
+        <di:waypoint x="976" y="537" />
+        <di:waypoint x="1089" y="537" />
+        <di:waypoint x="1089" y="342" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1008" y="517" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_0yzc3r2_di" cmmnElementRef="PlanItem_0yzc3r2">
+        <dc:Bounds x="654" y="511" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1wx49m6_di" cmmnElementRef="PlanItem_1wx49m6">
+        <dc:Bounds x="806" y="485" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="PlanItem_1qbnok9_di" cmmnElementRef="PlanItem_1qbnok9">
+        <dc:Bounds x="806" y="573" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_0d6ffxx_di" cmmnElementRef="EntryCriterion_0d6ffxx">
+        <dc:Bounds x="796" y="489" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_08ivtl7_di" cmmnElementRef="EntryCriterion_08ivtl7">
+        <dc:Bounds x="796" y="578" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0lw0oxn_di" cmmnElementRef="PlanItemOnPart_0lw0oxn" targetCMMNElementRef="EntryCriterion_0d6ffxx" isStandardEventVisible="true">
+        <di:waypoint x="754" y="551" />
+        <di:waypoint x="775" y="551" />
+        <di:waypoint x="775" y="503" />
+        <di:waypoint x="796" y="503" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="517" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0fn7hw1_di" cmmnElementRef="PlanItemOnPart_0fn7hw1" targetCMMNElementRef="EntryCriterion_08ivtl7" isStandardEventVisible="true">
+        <di:waypoint x="754" y="551" />
+        <di:waypoint x="775" y="551" />
+        <di:waypoint x="775" y="592" />
+        <di:waypoint x="796" y="592" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="749" y="561.5" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_02vmzji_di" cmmnElementRef="EntryCriterion_02vmzji">
+        <dc:Bounds x="1125" y="314" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_1qn3zwq_di" cmmnElementRef="PlanItemOnPart_1qn3zwq" targetCMMNElementRef="EntryCriterion_02vmzji" isStandardEventVisible="true">
+        <di:waypoint x="979" y="596" />
+        <di:waypoint x="1051" y="596" />
+        <di:waypoint x="1135" y="596" />
+        <di:waypoint x="1135" y="342" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1141" y="397" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_0zs1t2s_di" cmmnElementRef="PlanItem_0zs1t2s">
+        <dc:Bounds x="1476" y="121" width="100" height="80" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1pa5lna_di" cmmnElementRef="EntryCriterion_1pa5lna">
+        <dc:Bounds x="1466" y="143" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0lh6hf1_di" cmmnElementRef="PlanItemOnPart_0lh6hf1" targetCMMNElementRef="EntryCriterion_1pa5lna" isStandardEventVisible="true">
+        <di:waypoint x="1408" y="161" />
+        <di:waypoint x="1437" y="161" />
+        <di:waypoint x="1437" y="157" />
+        <di:waypoint x="1466" y="157" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1420" y="149" width="34" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="PlanItem_0wtr94j_di" cmmnElementRef="PlanItem_0wtr94j">
+        <dc:Bounds x="1669" y="141" width="100" height="40" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNShape id="EntryCriterion_1ecn108_di" cmmnElementRef="EntryCriterion_1ecn108">
+        <dc:Bounds x="1659" y="149" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+      <cmmndi:CMMNEdge id="PlanItemOnPart_0z2qmni_di" cmmnElementRef="PlanItemOnPart_0z2qmni" targetCMMNElementRef="EntryCriterion_1ecn108" isStandardEventVisible="true">
+        <di:waypoint x="1576" y="161" />
+        <di:waypoint x="1618" y="161" />
+        <di:waypoint x="1618" y="163" />
+        <di:waypoint x="1659" y="163" />
+        <cmmndi:CMMNLabel>
+          <dc:Bounds x="1592" y="152" width="51" height="13" />
+        </cmmndi:CMMNLabel>
+      </cmmndi:CMMNEdge>
+      <cmmndi:CMMNShape id="EntryCriterion_1vsmav6_di" cmmnElementRef="EntryCriterion_1vsmav6">
+        <dc:Bounds x="644" y="536" width="20" height="28" />
+        <cmmndi:CMMNLabel />
+      </cmmndi:CMMNShape>
+    </cmmndi:CMMNDiagram>
+  </cmmndi:CMMNDI>
+</cmmn:definitions>

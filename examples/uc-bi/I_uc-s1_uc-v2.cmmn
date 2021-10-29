@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+<cmmn:definitions xmlns:cmmn="http://www.omg.org/spec/CMMN/20151109/MODEL" xmlns:dc="http://www.omg.org/spec/CMMN/20151109/DC" xmlns:di="http://www.omg.org/spec/CMMN/20151109/DI" xmlns:cmmndi="http://www.omg.org/spec/CMMN/20151109/CMMNDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="_afb727f5eddf4518bf0e797492709cbc_definitions">
+  <cmmn:case name="I_uc-s1_uc-v2" id="_afb727f5eddf4518bf0e797492709cbc">
+    <cmmn:casePlanModel name="AcknowledgingUnbornChild" id="_24156c6d3162480dacb8bf1577da972b">
+      <cmmn:planItem id="_0300bb4edeea4910b03ec870136c8a3b" definitionRef="_cee8eff176594031976a20ba2e11235b">
+        <cmmn:entryCriterion id="_d565e3494f07431e911989eabb098032" sentryRef="_f2bef3295a7c4fba861cf081ef4c16fb" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_8e5894f7738247a0bf35a175899510f9" definitionRef="_83942b06920044c688bc4b522451f7da">
+        <cmmn:entryCriterion id="_d785589cd6794d0f872c03de30b877dc" sentryRef="_632b2f66e6bc412788a4161c2466ef93" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_2ea449981dce4e5593716d7f931413f0" definitionRef="_9468b9718f0b4037ad4bcddc208dd352">
+        <cmmn:entryCriterion id="_76f9bf0d387646f58e353d70bc6766cb" sentryRef="_04d95094be654ca38a92ba75b8e02adf" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_bb73f3a9f082456f88c9ddce70b13bfd" definitionRef="_d00491647f8d467db30679425d29be5e">
+        <cmmn:entryCriterion id="_b844b80bb9fb4c2aa79113629631463b" sentryRef="_e13ed0ef2de749359b81e8aa5a60f402" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_9c9f5a7dde084c329cea32e761f1e18d" definitionRef="_568ec7fdeb34422bbe90ed6c3e1ce35e">
+        <cmmn:entryCriterion id="_311b0b46e8a245bea6af4306e0539793" sentryRef="_fc8a54d58cb24c32bba6e260ab5919c9" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_8a1421f9d88b4581acf75d48488fb735" definitionRef="_55d67d935f804aca8d69beb109041ede">
+        <cmmn:entryCriterion id="_cfa266aebc2940e4b50b43b8bc7c78ff" sentryRef="_ea5210b871474c0abd253f4020422730" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_f3e936a6136c4e1fa8ac5719f6d65b3f" definitionRef="_86c79118d75845819c47f1068f744fec">
+        <cmmn:entryCriterion id="_1781635e1a00473ab4c3c193aeb4370c" sentryRef="_277baa158f16416cb3fc27a0af32799e" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_aadbd23a12b74aac99736bd3fdb00f59" definitionRef="_755af9f5b0b74920b9d52fbe755c472a">
+        <cmmn:entryCriterion id="_940ac64b412947e591187c313ede01f7" sentryRef="_ed82dff858dc4423862e3b792225838b" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_f222055d0eed4a66a1a5531edf40243a" definitionRef="_6e9b113c8a35452a8b40ab6b2f3e034d">
+        <cmmn:entryCriterion id="_96aaea8d3cb04c49895f2470b4a014cc" sentryRef="_74942ea557764167a5bc314f0d7f964c" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_fc28550e368c41349e6f181be34ba336" definitionRef="_da7015d9ba7d4eb5bf5f6aabfcc06d71" />
+      <cmmn:planItem id="_fcd0700c0729433496e7b3a57f0fe574" definitionRef="_0ff16628a33d4943850ae3a78409dbad">
+        <cmmn:entryCriterion id="_656cb84a41654e23b4618f38b357dfa3" sentryRef="_faf51b35dec74cf086cd3ff621e3d0cf" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_6cf9a2b7ef4b478e89e389e30d6a909c" definitionRef="_cae89ba632d34b74b74c8192d8fea530">
+        <cmmn:entryCriterion id="_b9acd06873bb40a8ac7d583d9f63640f" sentryRef="_0bd8de7a740e49dcad421959a60e86d9" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_16f64ee631a94a67b1e83160dc91bb9c" definitionRef="_0d50cf3a29114627a01cb9515db5e9fc">
+        <cmmn:entryCriterion id="_c3638502d9934c028be049607ea72d6a" sentryRef="_43edce75c852444ab7e90866a12ff796" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_a941704d59284a2ba56fceb275ec067b" definitionRef="_070fecf20cdf4496aa02e9e360f1971a">
+        <cmmn:entryCriterion id="_14829ce88c15477288a9b1b6a2e79abb" sentryRef="_187a4a403eef4adca4123284c198a68f" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_87c9dafc887f407395f7b4d557628416" definitionRef="_b860c230f7f641d2a6e4447cadd2c88d">
+        <cmmn:entryCriterion id="_dc5d454b92aa4575a16da83c26e2d236" sentryRef="_e1e2d875d6cd47eb95828e8ae53d5f57" />
+        <cmmn:entryCriterion id="_95d41a7414c347fa9f33fd1d23999528" sentryRef="_7a65414fd631439c9a70e70d1951503b" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_52a4dded58064f93ad4dfacd668e6a50" definitionRef="_d8b92d0f884445829ad57c68db8f33d5">
+        <cmmn:entryCriterion id="_50c3427067d246cb8b3f75fa66a8eb1b" sentryRef="_f6bf1635131c4475b94fec471e4746bb" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_039561e1de4e47e7bcd03afb02e1655b" definitionRef="_3a2d095649f941e4a08e4c0d873a4be6">
+        <cmmn:entryCriterion id="_2ce0916bdb7d47e992947f83379e3476" sentryRef="_edab3373b60d487c922c4bea519f2aa3" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_c1f0e0ac9e7243f28efde480f981d173" definitionRef="_b64508e47767485bad79feeb7136f073">
+        <cmmn:entryCriterion id="_4ed64632c8ce41b09e3fd31b5a5662c8" sentryRef="_a96829bbdc9a4f36900bc58ddd8b3676" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_76490b7a08c64d7db95c145221f195c3" definitionRef="_80fb745be52741a6b511738bb798ad2e">
+        <cmmn:entryCriterion id="_21fabbbd3591472aa3fca9c78f367b6c" sentryRef="_23675ebd3a884332b0efa639f199d4f4" />
+      </cmmn:planItem>
+      <cmmn:planItem id="_0124c66a9c394647aaf9710d2df58eda" definitionRef="_05f7295cb1474ec7b71674e4edf7568d">
+        <cmmn:entryCriterion id="_e92579c6a2f347ce9ec23f398f92be52" sentryRef="_418f7a8196b44a328586a89d4f545e87" />
+      </cmmn:planItem>
+      <cmmn:milestone name="Authorized" id="_86c79118d75845819c47f1068f744fec" />
+      <cmmn:task name="Determine nationality" id="_55d67d935f804aca8d69beb109041ede" />
+      <cmmn:task name="Hand over copy" id="_cee8eff176594031976a20ba2e11235b" />
+      <cmmn:eventListener name="Request Acknowledgement" id="_da7015d9ba7d4eb5bf5f6aabfcc06d71" />
+      <cmmn:task name="Draw up acknowledgement" id="_d00491647f8d467db30679425d29be5e" />
+      <cmmn:task name="Determine if authorized" id="_80fb745be52741a6b511738bb798ad2e" />
+      <cmmn:task name="Decide choice of name (Dutch law)" id="_83942b06920044c688bc4b522451f7da" />
+      <cmmn:milestone name="Name chosen" id="_d8b92d0f884445829ad57c68db8f33d5" />
+      <cmmn:milestone name="Unauthorized" id="_0d50cf3a29114627a01cb9515db5e9fc" />
+      <cmmn:milestone name="Requester has copy" id="_568ec7fdeb34422bbe90ed6c3e1ce35e" />
+      <cmmn:milestone name="Archived" id="_cae89ba632d34b74b74c8192d8fea530" />
+      <cmmn:task name="Check permission" id="_755af9f5b0b74920b9d52fbe755c472a" />
+      <cmmn:milestone name="Dutch nationality" id="_3a2d095649f941e4a08e4c0d873a4be6" />
+      <cmmn:milestone name="Permission present" id="_6e9b113c8a35452a8b40ab6b2f3e034d" />
+      <cmmn:milestone name="No acknowlegement" id="_b860c230f7f641d2a6e4447cadd2c88d" />
+      <cmmn:task name="Confirm identity" id="_b64508e47767485bad79feeb7136f073" />
+      <cmmn:task name="Decide choice of name (foreign law)" id="_9468b9718f0b4037ad4bcddc208dd352" />
+      <cmmn:milestone name="Foreign nationality" id="_0ff16628a33d4943850ae3a78409dbad" />
+      <cmmn:milestone name="Acknowledgement created" id="_05f7295cb1474ec7b71674e4edf7568d" />
+      <cmmn:milestone name="No permission present" id="_070fecf20cdf4496aa02e9e360f1971a" />
+      <cmmn:sentry id="_faf51b35dec74cf086cd3ff621e3d0cf">
+        <cmmn:planItemOnPart id="_334ebf971fc94f90bdbdc55f37635552" sourceRef="_8a1421f9d88b4581acf75d48488fb735">
+          <!--refers to plan item name: Determine nationality-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not Dutch</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_e13ed0ef2de749359b81e8aa5a60f402">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_04d95094be654ca38a92ba75b8e02adf">
+        <cmmn:planItemOnPart id="_2636f16df1064e6fb576f61de66f4be2" sourceRef="_fcd0700c0729433496e7b3a57f0fe574">
+          <!--refers to plan item name: Foreign nationality-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_edab3373b60d487c922c4bea519f2aa3">
+        <cmmn:planItemOnPart id="_c9561b9adcda4c4ca2f9754e612639f9" sourceRef="_8a1421f9d88b4581acf75d48488fb735">
+          <!--refers to plan item name: Determine nationality-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>Dutch</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_f6bf1635131c4475b94fec471e4746bb">
+        <cmmn:planItemOnPart id="_cc29dc75602b4dddb422aa1cc756dd99" sourceRef="_2ea449981dce4e5593716d7f931413f0">
+          <!--refers to plan item name: Decide choice of name (foreign law)-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_74942ea557764167a5bc314f0d7f964c">
+        <cmmn:planItemOnPart id="_76a9a77b4a90434cb81e8ed8459903db" sourceRef="_aadbd23a12b74aac99736bd3fdb00f59">
+          <!--refers to plan item name: Check permission-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>permission</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_ed82dff858dc4423862e3b792225838b">
+        <cmmn:planItemOnPart id="_911858d4244b4639beeed41a50b2e181" sourceRef="_f3e936a6136c4e1fa8ac5719f6d65b3f">
+          <!--refers to plan item name: Authorized-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_43edce75c852444ab7e90866a12ff796">
+        <cmmn:planItemOnPart id="_28ba46c7d5e347aca28c5344d5db3425" sourceRef="_76490b7a08c64d7db95c145221f195c3">
+          <!--refers to plan item name: Determine if authorized-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not authorized</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_277baa158f16416cb3fc27a0af32799e">
+        <cmmn:planItemOnPart id="_b3d0f11eba984ee79c0574d4576b46fe" sourceRef="_76490b7a08c64d7db95c145221f195c3">
+          <!--refers to plan item name: Determine if authorized-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>authorized</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_0bd8de7a740e49dcad421959a60e86d9">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_7a65414fd631439c9a70e70d1951503b">
+        <cmmn:planItemOnPart id="_ef11fd3b49e64db693bf7b9501c2ef2b" sourceRef="_a941704d59284a2ba56fceb275ec067b">
+          <!--refers to plan item name: No permission present-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_e1e2d875d6cd47eb95828e8ae53d5f57">
+        <cmmn:planItemOnPart id="_4e8530b03f4b4270a17b3f853143b7b0" sourceRef="_16f64ee631a94a67b1e83160dc91bb9c">
+          <!--refers to plan item name: Unauthorized-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_f2bef3295a7c4fba861cf081ef4c16fb">
+        <cmmn:planItemOnPart id="_411866a093094c4b9b70dacf03d306b0" sourceRef="_0124c66a9c394647aaf9710d2df58eda">
+          <!--refers to plan item name: Acknowledgement created-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_ea5210b871474c0abd253f4020422730">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_418f7a8196b44a328586a89d4f545e87">
+        <cmmn:planItemOnPart id="_8cfe1362f75c4bebb043aadcf51a2ac5" sourceRef="_bb73f3a9f082456f88c9ddce70b13bfd">
+          <!--refers to plan item name: Draw up acknowledgement-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_23675ebd3a884332b0efa639f199d4f4">
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_187a4a403eef4adca4123284c198a68f">
+        <cmmn:planItemOnPart id="_482ebae325f246a4a33b14f99a631a02" sourceRef="_aadbd23a12b74aac99736bd3fdb00f59">
+          <!--refers to plan item name: Check permission-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition>not permission</cmmn:condition>
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_a96829bbdc9a4f36900bc58ddd8b3676">
+        <cmmn:planItemOnPart id="_7b33238460a145f782caccd95ed5c757" sourceRef="_fc28550e368c41349e6f181be34ba336">
+          <!--refers to plan item name: Request Acknowledgement-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_632b2f66e6bc412788a4161c2466ef93">
+        <cmmn:planItemOnPart id="_b5609d09fc284a108e6781597faa679c" sourceRef="_039561e1de4e47e7bcd03afb02e1655b">
+          <!--refers to plan item name: Dutch nationality-->
+          <cmmn:standardEvent>occur</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+      <cmmn:sentry id="_fc8a54d58cb24c32bba6e260ab5919c9">
+        <cmmn:planItemOnPart id="_68bdb24a73734a4c8ef24d72052c597f" sourceRef="_0300bb4edeea4910b03ec870136c8a3b">
+          <!--refers to plan item name: Hand over copy-->
+          <cmmn:standardEvent>complete</cmmn:standardEvent>
+        </cmmn:planItemOnPart>
+        <cmmn:ifPart>
+          <cmmn:condition />
+        </cmmn:ifPart>
+      </cmmn:sentry>
+    </cmmn:casePlanModel>
+  </cmmn:case>
+</cmmn:definitions>
+
